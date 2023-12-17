@@ -1,0 +1,82 @@
+body, html{
+    height: 100%;
+}
+
+header{
+    color: #f9faf8;
+    background-color: #1F2937;
+}
+
+.header-links li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.header-logo-text{
+    font-size: 24px;
+}
+
+.hero-image{
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/inside.png");
+
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    background-color: #1F2937;
+}
+
+#hero-text{
+    /* Positions text in the middle of the image*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary-text, #get-started-button{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#get-started-button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+#information-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+}
+
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
